@@ -1,0 +1,29 @@
+*Comando GIT---------------------------------------------
+
+git config --global user.name "{nome}" - Nome de Usuário
+git config --global user.email "{email}" - Endereço de Email
+git config --list - Ver usuário e email
+git init - Criar um repositório
+git log - Ver todo o histórico de alteraçòes
+git status - Ver quais arquivos foram ou não alterados
+git add {arquivo} - Adicionar Alteração em um arquivo
+git add . - Adicionar Alteração em todos os arquivos
+git commit -m "{mensagem}" - Validando Alteração com Mensagem de alteração
+git remote add origin {link do repositorio remoto} - Adicionar repositorio do github
+git clone {link do repositório remoto} - Clonar Repositório
+git push origin master - Upa no repositorio remoto
+git remote -v - verificar os diretorios remotos
+git clone {link github} - Clonar o repositorio
+
+*Comandos de diretorio-------------------------------------------
+
+cd - Explorar
+ls - Ver arquivos e pastas dentro do diretorio
+mkdir - Criar pasta
+rmdir - Remover Pasta
+
+*Comandos para Arquivo-----------------------------------------------
+
+touch - criar arquivo
+cat - Ver conteudo do arquivo
+echo "{conteudo}" >> {arquivo} - Adicionar conteudo ao arquivo
