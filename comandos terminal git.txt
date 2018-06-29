@@ -9,11 +9,16 @@ git status - Ver quais arquivos foram ou não alterados
 git add {arquivo} - Adicionar Alteração em um arquivo
 git add . - Adicionar Alteração em todos os arquivos
 git commit -m "{mensagem}" - Validando Alteração com Mensagem de alteração
+git commit -am "{mensagem}" - Removendo do stage e Comitando Alteração de uma vez com Mensagem de alteração
 git remote add origin {link do repositorio remoto} - Adicionar repositorio do github
 git clone {link do repositório remoto} - Clonar Repositório
 git push origin master - Upa no repositorio remoto
 git remote -v - verificar os diretorios remotos
 git clone {link github} - Clonar o repositorio
+touch .gitignore - Adicionamos os arquivos que serão ignorados na comitação
+git log -n {numero de commits que deseja visualizar} - Ver numero determinado de commits
+git log --oneline - Ver nome dos commits em uma só linha
+git log --stat - Ver resumo de alterações para cada commit
 
 *Comandos de diretorio-------------------------------------------
 
