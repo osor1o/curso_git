@@ -19,6 +19,10 @@ touch .gitignore - Adicionamos os arquivos que serão ignorados na comitação
 git log -n {numero de commits que deseja visualizar} - Ver numero determinado de commits
 git log --oneline - Ver nome dos commits em uma só linha
 git log --stat - Ver resumo de alterações para cada commit
+git checkout 'nome do arquivo' - retorna para o arquivo original antes de chegar na área stage (não rastrado)
+git reset --hard - remover todas as alteracoes da área stage (rastreado)
+
+
 
 *Comandos de diretorio-------------------------------------------
 
@@ -26,10 +30,11 @@ cd - Explorar
 ls - Ver arquivos e pastas dentro do diretorio
 mkdir - Criar pasta
 rmdir - Remover Pasta
-rm 'nome do arquivo.extensão' - remover arquivo
 
 *Comandos para Arquivo-----------------------------------------------
 
 touch - criar arquivo
 cat - Ver conteudo do arquivo
 echo "{conteudo}" >> {arquivo} - Adicionar conteudo ao arquivo
+rm 'nome do arquivo.extensão' - remover arquivo
+mv 'nome original do arquivo' 'novo nome' - renomear arquivo
