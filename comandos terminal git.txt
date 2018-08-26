@@ -26,6 +26,7 @@ cd - Explorar
 ls - Ver arquivos e pastas dentro do diretorio
 mkdir - Criar pasta
 rmdir - Remover Pasta
+rm 'nome do arquivo.extensão' - remover arquivo
 
 *Comandos para Arquivo-----------------------------------------------
 
