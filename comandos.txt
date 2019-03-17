@@ -1,40 +1,23 @@
 *Comando GIT---------------------------------------------
 
-git config --global user.name "{nome}" - Nome de Usu·rio
-git config --global user.email "{email}" - EndereÁo de Email
-git config --list - Ver usu·rio e email
-git init - Criar um repositÛrio
-git log - Ver todo o histÛrico de alteraÁÚes
-git status - Ver quais arquivos foram ou n„o alterados
-git add {arquivo} - Adicionar AlteraÁ„o em um arquivo
-git add . - Adicionar AlteraÁ„o em todos os arquivos
-git commit -m "{mensagem}" - Validando AlteraÁ„o com Mensagem de alteraÁ„o
-git commit -am "{mensagem}" - Removendo do stage e Comitando AlteraÁ„o de uma vez com Mensagem de alteraÁ„o
+git config --global user.name "{nome}" - Nome de Usu√°rio
+git config --global user.email "{email}" - Endere√ßo de Email
+git config --list - Ver usu√°rio e email
+git init - Criar um reposit√≥rio
+git log - Ver todo o hist√≥rico de altera√ß√≤es
+git status - Ver quais arquivos foram ou n√£o alterados
+git add {arquivo} - Adicionar Altera√ß√£o em um arquivo
+git add . - Adicionar Altera√ß√£o em todos os arquivos
+git commit -m "{mensagem}" - Validando Altera√ß√£o com Mensagem de altera√ß√£o
+git commit -am "{mensagem}" - Removendo do stage e Comitando Altera√ß√£o de uma vez com Mensagem de altera√ß√£o
 git remote add origin {link do repositorio remoto} - Adicionar repositorio do github
-git clone {link do repositÛrio remoto} - Clonar RepositÛrio
+git clone {link do reposit√≥rio remoto} - Clonar Reposit√≥rio
 git push origin master - Upa no repositorio remoto
 git remote -v - verificar os diretorios remotos
 git clone {link github} - Clonar o repositorio
-touch .gitignore - Adicionamos os arquivos que ser„o ignorados na comitaÁ„o
+touch .gitignore - Adicionamos os arquivos que ser√£o ignorados na comita√ß√£o
 git log -n {numero de commits que deseja visualizar} - Ver numero determinado de commits
-git log --oneline - Ver nome dos commits em uma sÛ linha
-git log --stat - Ver resumo de alteraÁıes para cada commit
-git checkout 'nome do arquivo' - retorna para o arquivo original antes de chegar na ·rea stage (n„o rastrado)
-git reset --hard - remover todas as alteracoes da ·rea stage (rastreado)
-
-
-
-*Comandos de diretorio-------------------------------------------
-
-cd - Explorar
-ls - Ver arquivos e pastas dentro do diretorio
-mkdir - Criar pasta
-rmdir - Remover Pasta
-
-*Comandos para Arquivo-----------------------------------------------
-
-touch - criar arquivo
-cat - Ver conteudo do arquivo
-echo "{conteudo}" >> {arquivo} - Adicionar conteudo ao arquivo
-rm 'nome do arquivo.extens„o' - remover arquivo
-mv 'nome original do arquivo' 'novo nome' - renomear arquivo
+git log --oneline - Ver nome dos commits em uma s√≥ linha
+git log --stat - Ver resumo de altera√ß√µes para cada commit
+git checkout 'nome do arquivo' - retorna para o arquivo original antes de chegar na √°rea stage (n√£o rastrado)
+git reset --hard - remover todas as alteracoes da √°rea stage (rastreado)
